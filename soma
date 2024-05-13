@@ -1,6 +1,5 @@
 #include <iostream>
 
-// Função para somar dois números
 int soma(int num1, int num2) {
     return num1 + num2;
 }
@@ -8,14 +7,12 @@ int soma(int num1, int num2) {
 int main() {
     int numero1, numero2;
 
-    // Solicita ao usuário para inserir dois números
     std::cout << "Digite o primeiro número: ";
     std::cin >> numero1;
 
     std::cout << "Digite o segundo número: ";
     std::cin >> numero2;
 
-    // Chama a função soma e imprime o resultado
     std::cout << "A soma dos números é: " << soma(numero1, numero2) << std::endl;
 
     return 0;
